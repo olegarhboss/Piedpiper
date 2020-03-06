@@ -103,6 +103,9 @@ class UserController extends Controller
     {
         $user->tokens()->delete();
         $user->deletePhoto();
-        $user->delete();
+
+        if ($user->delete()) {
+            return response()->json(['success']);
+        }
     }
 }
