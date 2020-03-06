@@ -12,6 +12,4 @@
 */
 
 # Главная страница
-Route::get('/test', 'TestController');
-
 Route::get('/{any?}', 'WelcomePage');
