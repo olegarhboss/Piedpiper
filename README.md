@@ -1,29 +1,29 @@
-## Тестовое задание на должность PHP программиста в компанию Фогстрим
+# Тестовое задание на должность PHP программиста в компанию Фогстрим
 
 В данном задании также частично охвачено тестовое задание на должность фронтенд разработчика.
 Фронтент реализован как SPA Vue.js с использованием аналогов React:
 
 - [Demo](https://wmdv.site).
 
-### Frontend
+## Frontend
 
-- [Vue.js](https://vuejs.org).
-- [vue-router](https://router.vuejs.org).
-- [vuex](https://vuex.vuejs.org).
-- [vuetify](vuetifyjs.com).
-- [vue-recaptcha](https://github.com/DanSnow/vue-recaptcha#readme).
-- [axios](https://github.com/axios/axios).
+- [Vue.js](https://vuejs.org) - Frontend Framework.
+- [vue-router](https://router.vuejs.org) - Маршрутизация.
+- [vuex](https://vuex.vuejs.org) - Управление состоянием для Vue.js (Аналог Redux).
+- [vuetify](https://vuetifyjs.com) - Material UI для Vue.js.
+- [vue-recaptcha](https://github.com/DanSnow/vue-recaptcha#readme) - Компонент для внедрения Google reCaptcha.
+- [axios](https://github.com/axios/axios) - Асинхронные HTTP запросы.
 
-### Backend
+## Backend
 
-- [Laravel 7](https://laravel.com).
-- [Laravel Airlock](https://laravel.com/docs/7.x/airlock).
-- [intervention/image](http://image.intervention.io).
-- [guzzlehttp/guzzle](https://laravel.com/docs/7.x/http-client).
+- [Laravel 7](https://laravel.com) - Наисвежайший! Backend Framework.
+- [Laravel Airlock](https://laravel.com/docs/7.x/airlock) - API Авторизация со всякими плюшками уже в комплекте.
+- [intervention/image](http://image.intervention.io) - Обработка изображений (Реализована загрузка изображений для профиля пользователя).
+- [guzzlehttp/guzzle](https://laravel.com/docs/7.x/http-client) - Фасад для HTTP запросов, в данном случае использется для работы с Google reCaptcha.
 
-#### Комментарии
+### Комментарии
 
-Для взамодействия с бэкэндом был задействован официальный пакет Airlock для упращения работы с API. Часть маршрутов защищена middleware авторизации и Google reCapcha v2 (логин и регистрация), все необходимые настройки находется в .env. Так же реализовано два ресурсных контроллера для моделей User (пользователи) и Post (новости). Все контроллеры API находятся в отдельной дерриктории контроллеров App\Http\Controllers\API.
+Для API авторизации был задействован официальный пакет [Airlock](https://laravel.com/docs/7.x/airlock), с ним очень просто делать авторизацию для API, в нём уже многое есть из каробки.
 
-
-
+Так же реализовано два [ресурсных](https://laravel.com/docs/7.x/controllers#resource-controllers) API контроллера для моделей User (пользователи) и Post (новости), Так же для этих моделей созданы [API ресурсы](https://laravel.com/docs/7.x/eloquent-resources).
+Все контроллеры API находятся в отдельной дерриктории контроллеров App\Http\Controllers\API.
