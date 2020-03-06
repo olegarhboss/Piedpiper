@@ -1,5 +1,6 @@
 import AuthService from '../../services/AuthService';
 import UserService from '../../services/UserService';
+import axios from 'axios'
 
 export const namespaced = true;
 
@@ -102,7 +103,7 @@ export const actions = {
     // Получение reCapchaKey с сервера
     recaptcha({ commit }){
         commit('SET_LOADING', true);
-        return AuthService.getCaptchaKey()
+        return axios.get('/api/recaptcha')
             .then(response => {
                 commit('SET_RECAPTCHA_KEY', response.data.key);
                 commit('SET_LOADING', false);

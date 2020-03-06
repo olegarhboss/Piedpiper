@@ -1,13 +1,13 @@
 {
-    "/js/app.js": "/js/app.js?id=6aafb473b4fddbd68b6c",
-    "/css/app.css": "/css/app.css?id=49474520e28920826958",
-    "/js/components/about.db959993fbd4e9d73433.js": "/js/components/about.db959993fbd4e9d73433.js?id=38ae712524e387b5a6b7",
-    "/js/components/help.be6c5c0ee95cdeab186f.js": "/js/components/help.be6c5c0ee95cdeab186f.js?id=9340fa618ac341703278",
-    "/js/components/index.69234d8d369682d541f7.js": "/js/components/index.69234d8d369682d541f7.js?id=113833060009dd7aa3a9",
-    "/js/components/login.8aa4510a77d75ec3d012.js": "/js/components/login.8aa4510a77d75ec3d012.js?id=365203db1bb361380def",
-    "/js/components/post.ea3a2fb37072165ab2ef.js": "/js/components/post.ea3a2fb37072165ab2ef.js?id=5880656e353ac65cbcf0",
-    "/js/components/posts.f6254d82cbc6dcb2c16f.js": "/js/components/posts.f6254d82cbc6dcb2c16f.js?id=ce82969daac701cce838",
-    "/js/components/profile.2db4893d70ab2c558be7.js": "/js/components/profile.2db4893d70ab2c558be7.js?id=1cde1dd109000b45190a",
-    "/js/components/register.625a0008d4a06105666f.js": "/js/components/register.625a0008d4a06105666f.js?id=f880c0572e71f9f13a0a",
-    "/js/components/settings.6017b3bb2f457af3e510.js": "/js/components/settings.6017b3bb2f457af3e510.js?id=6a54659d6bf41bc8ad98"
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/components/about.js": "/js/components/about.js",
+    "/js/components/help.js": "/js/components/help.js",
+    "/js/components/index.js": "/js/components/index.js",
+    "/js/components/login.js": "/js/components/login.js",
+    "/js/components/post.js": "/js/components/post.js",
+    "/js/components/posts.js": "/js/components/posts.js",
+    "/js/components/profile.js": "/js/components/profile.js",
+    "/js/components/register.js": "/js/components/register.js",
+    "/js/components/settings.js": "/js/components/settings.js"
 }
