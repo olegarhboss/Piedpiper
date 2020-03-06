@@ -5,7 +5,7 @@
 <link rel=preconnect href=https://fonts.googleapis.com>
 <link rel=preconnect href=https://cdn.jsdelivr.net>
 <link rel=preconnect href=https://www.google.com>
-<link rel=preconnect href=https:/www.gstatic.com>
+<link rel=preconnect href=https://www.gstatic.com>
 
 {{-- Метаданные --}}
 <meta charset=utf-8>
