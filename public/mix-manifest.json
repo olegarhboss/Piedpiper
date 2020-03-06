@@ -1,0 +1,13 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/components/about.js": "/js/components/about.js",
+    "/js/components/help.js": "/js/components/help.js",
+    "/js/components/index.js": "/js/components/index.js",
+    "/js/components/login.js": "/js/components/login.js",
+    "/js/components/post.js": "/js/components/post.js",
+    "/js/components/profile.js": "/js/components/profile.js",
+    "/js/components/register.js": "/js/components/register.js",
+    "/js/components/settings.js": "/js/components/settings.js",
+    "/js/components/posts.js": "/js/components/posts.js"
+}
