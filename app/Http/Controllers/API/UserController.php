@@ -105,7 +105,7 @@ class UserController extends Controller
         $user->deletePhoto();
 
         if ($user->delete()) {
-            return response()->json(['success']);
+            return response()->json(['status' => 'deleted']);
         }
     }
 }
