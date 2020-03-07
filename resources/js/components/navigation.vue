@@ -60,11 +60,27 @@
         data: () => ({
             drawer: null,
             navs: [
-                { title: 'На главную', icon: 'mdi-home', route: 'main' },
-                { title: 'Новости', icon: 'mdi-newspaper', route: 'posts' },
-                { title: 'О нас', icon: 'mdi-map-legend', route: 'about' },
-                { title: 'Помощь', icon: 'mdi-help', route: 'help' },
-                { title: 'Настройки', icon: 'mdi-settings', route: 'settings' },
+                { 
+                    title: 'На главную', 
+                    icon: 'mdi-home', 
+                    route: 'main' },
+                { 
+                    title: 'Новости', 
+                    icon: 'mdi-newspaper', 
+                    route: 'posts' },
+                { 
+                    title: 'О нас', 
+                    icon: 'mdi-map-legend', 
+                    route: 'about' },
+                { 
+                    title: 'Помощь', 
+                    icon: 'mdi-help', 
+                    route: 'help' },
+                { 
+                    title: 'Настройки', 
+                    icon: 'mdi-settings', 
+                    route: 'settings' 
+                },
             ]
         }),
 
