@@ -73,14 +73,14 @@ class PostController extends Controller
             'description' => 'nullable|string|max:255',
             'content' => 'nullable|string',
             'cover' => 'nullable|stringmax:255',
-            'publish_at' => 'nullable|date'
+            'publishedAt' => 'nullable|date'
         ]);
 
         $post->tilte = $request->tilte ?? $post->tilte;
         $post->description = $request->description ?? $post->description;
         $post->content = $request->content ?? $post->content;
         $post->cover = $request->cover ?? $post->cover;
-        $post->publish_at = $request->publish_at ?? $post->publish_at;
+        $post->publish_at = $request->publishedAt ?? $post->publish_at;
 
         if ($post->save()) {
             return new PostResource($post);
