@@ -32,7 +32,7 @@ class PostController extends Controller
             'description' => 'required|string|max:255',
             'content' => 'required|string',
             'cover' => 'required|stringmax:255',
-            'publish_at' => 'required|date'
+            'publishedAt' => 'required|date'
         ]);
 
         $post = Post::create([
@@ -40,7 +40,7 @@ class PostController extends Controller
             'description' => $request->description,
             'content' => $request->content,
             'cover' => $request->publish_at,
-            'publish_at' => $request->publish_at
+            'publish_at' => $request->publishedAt
         ]);
 
         if ($post->save()) {
